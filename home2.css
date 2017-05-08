@@ -1,0 +1,275 @@
+body {
+    
+    background-color: #FAFAD2;
+    
+}
+
+
+.lgimg {
+
+background-image: url("http://www.nationalgeographic.com/content/dam/travel/2016-digital/quebec-city/three-days-in-quebec-city/st-lawrence-river-chateau-frontenac-quebec-city.jpg");
+background-position: center center;
+background-size: cover;
+height: 300px;
+
+
+}
+
+header{
+    
+    margin-top: -30px;
+    
+}
+
+
+div .form-group{
+    
+    border: 1px solid #DBDBDB;
+    height: 3em;
+    width: 16em;
+    
+}
+
+.form-control {
+    
+    border: 0;
+    background-color: blue;
+    
+}
+
+
+.nobe {
+    
+    border: 0;
+    box-shadow: none;
+}
+
+.form-group:hover {
+  /* background: #b3aca7;*/
+  color: #e2dedb;
+}
+
+.form-group input:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+#submit {
+    
+  outline:none;
+  cursor: pointer;
+  border: 1px solid #DBDBDB;
+  height: 3em;
+  width: 16em;
+  
+}
+  
+#submit:hover {
+    
+    background-color: #008B8B;
+    color: #fff;
+    
+  }
+  
+
+
+
+div img {
+    
+    height: 16em;
+    width: 24em;
+    border: 1px solid black;
+    
+}
+
+nav {
+    
+     border-bottom: 1px solid #DBDBDB;
+}
+
+.all {
+    
+    height: 100%;
+    width: 100%;
+}
+
+.tab_content {
+    
+   height: 50em;
+   border: 1px solid #DBDBDB;
+   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+   
+}
+
+.dum {
+    
+    background-color: #008B8B;
+    width: 100%;
+    color: white;
+}
+
+.head {
+    
+    background-color: #008B8B;
+}
+
+section {
+    
+    /*background-color: #FAFAD2;*/
+    
+}
+
+.tabs22 li {
+    
+    display: inline;
+    padding-right: 30px;
+    
+}
+
+.tabs22 {
+    
+    text-align: center;
+    width: 100%;
+}
+
+.tabs li {
+    
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border: 2px solid black;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+.search_tabs li {
+    
+    /*padding: 14px; */
+    list-style: none;
+    border: 1px solid #DBDBDB;
+   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		background-color: rgb(255, 255, 255);
+		padding: 0px;
+		margin: 0px 0px 20px;
+	}
+	.search_tabs > li > img {
+		display: inline-block;
+		color: rgb(255, 255, 255);
+		/* background-color: rgb(197, 44, 102);*/
+		padding: 5px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.search_tabs > li:nth-child(even) > time {
+		background-color: rgb(165, 82, 167);
+	}
+	.search_tabs > li > time > span {
+		display: none;
+	}
+	.search_tabs > li > time > .day {
+		display: block;
+		font-size: 56pt;
+		font-weight: 100;
+		line-height: 1;
+	}
+	.search_tabs > li time > .month {
+		display: block;
+		font-size: 24pt;
+		font-weight: 900;
+		line-height: 1;
+	}
+	
+	.search_tabs > li > .info {
+		padding-top: 5px;
+		text-align: center;
+	}
+	.search_tabs > li > .info > .title {
+		font-size: 17pt;
+		font-weight: 700;
+		margin: 0px;
+	}
+	.search_tabs > li > .info > .desc {
+		font-size: 13pt;
+		font-weight: 300;
+		margin: 0px;
+	}
+	.search_tabs > li > .info > ul,
+	.search_tabs > li > .social > ul {
+		display: table;
+		list-style: none;
+		margin: 10px 0px 0px;
+		padding: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.search_tabs > li > .social > ul {
+		margin: 0px;
+	}
+	.search_tabs > li > .info > ul > li,
+	.search_tabs > li > .social > ul > li {
+		display: table-cell;
+		cursor: pointer;
+		color: rgb(30, 30, 30);
+		font-size: 11pt;
+		font-weight: 300;
+        padding: 3px 0px;
+	}
+    .search_tabs > li > .info > ul > li > a {
+		display: block;
+		width: 100%;
+		color: rgb(30, 30, 30);
+		text-decoration: none;
+	} 
+    .search_tabs > li > .social > ul > li {    
+        padding: 0px;
+    }
+    
+    
+    .search_tabs > li > .social > ul > li > a {
+        padding: 3px 0px;
+	} 
+	.search_tabs > li > .info > ul > li:hover,
+	.search_tabs > li > .social > ul > li:hover {
+		color: rgb(30, 30, 30);
+		background-color: rgb(200, 200, 200);
+	}
+
+
+ #map {
+        
+        height: 100%;
+        
+       }
+       
+.editform {
+    
+    
+    visibility: hidden;
+}
+       
+ .formopen {      
+
+    visibility: visible;
+    z-index: 1000;
+    height: 80%;
+    width: 70%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    background-color: grey;   
+       
+ }
